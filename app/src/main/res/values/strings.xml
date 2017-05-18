@@ -1,0 +1,70 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Minventory</string>
+
+    <!-- Label for overflow menu option that inserts fake items data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all items data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Title for the activity to add a new Item [CHAR LIMIT=20] -->
+    <string name="ea_title_new_item">Add an Item</string>
+
+    <!-- Title for the activity to edit an existing Item [CHAR LIMIT=20] -->
+    <string name="ea_title_edit_item">Edit Item</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving Item</string>
+
+    <!-- Toast message in editor when current Item was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when current Item has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating Item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current Item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current Itemt was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current Item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting Item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current Item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this Item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current Item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current Item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current Item [CHAR LIMIT=20] -->
+    <string name="unable_to_sell_item">Unable to sell this Item</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current Item [CHAR LIMIT=20] -->
+    <string name="unable_to_decrease_quantity">Unable to decrease quantity</string>
+
+    <!-- Toast message in editor when Quantity in Stock can't be increased [CHAR LIMIT=20] -->
+    <string name="unable_to_increase_quantity">Unable to increase quantity</string>
+
+    <!-- Subject line for the order summary email -->
+    <string name="order_summary_email_subject">New Order Request for: </string>
+
+</resources>
